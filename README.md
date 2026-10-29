@@ -24,6 +24,10 @@ Self-driving cars combine AI, sensors, maps, and control systems to perform driv
 
 **8. Continuous feedback and safety:** The car repeatedly updates its perception and decisions as new sensor data arrives. Redundancy, fault detection, emergency braking, and extensive testing help manage failures and unexpected conditions. Capabilities vary by vehicle and automation level; AI does not guarantee error-free driving.
 
+<img width="1774" height="887" alt="image" src="https://github.com/user-attachments/assets/f17c62d6-9130-49f0-9e04-547629d48d94" />
+
+
+
 ![Visual guide to the theory of self-driving cars](theory-diagram.svg)
 
 # RESULT
