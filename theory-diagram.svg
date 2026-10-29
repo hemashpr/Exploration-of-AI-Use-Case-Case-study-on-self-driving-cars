@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1000" viewBox="0 0 1500 1000">
+<rect width="1500" height="1000" fill="#ffffff"/>
+<text x="750" y="52" font-family="Arial,sans-serif" font-size="34" font-weight="700" text-anchor="middle" fill="#152238">HOW A SELF-DRIVING CAR WORKS</text>
+<text x="750" y="83" font-family="Arial,sans-serif" font-size="17" text-anchor="middle" fill="#475467">From sensor data to safe vehicle movement</text>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#344054"/></marker></defs>
+<g font-family="Arial,sans-serif" fill="#182230">
+<rect x="45" y="125" width="330" height="210" rx="16" fill="#fff4df" stroke="#d8a23b" stroke-width="2"/>
+<text x="210" y="163" text-anchor="middle" font-size="23" font-weight="700">1. Sensors</text>
+<text x="70" y="205" font-size="18">• Camera: images and lane markings</text><text x="70" y="238" font-size="18">• Radar: range and relative speed</text><text x="70" y="271" font-size="18">• LiDAR: 3D distance measurements</text><text x="70" y="304" font-size="18">• Ultrasonic: short-range obstacles</text>
+<rect x="415" y="125" width="330" height="210" rx="16" fill="#eaf4ff" stroke="#6ba9e8" stroke-width="2"/>
+<text x="580" y="163" text-anchor="middle" font-size="23" font-weight="700">2. Perception</text>
+<text x="440" y="205" font-size="18">Computer vision and AI detect</text><text x="440" y="235" font-size="18">vehicles, pedestrians, signs,</text><text x="440" y="265" font-size="18">traffic lights, lane boundaries,</text><text x="440" y="295" font-size="18">and nearby obstacles.</text>
+<rect x="785" y="125" width="300" height="210" rx="16" fill="#eaf8ed" stroke="#73bd83" stroke-width="2"/>
+<text x="935" y="163" text-anchor="middle" font-size="23" font-weight="700">3. Sensor Fusion</text>
+<text x="810" y="205" font-size="18">Combines camera, radar, and</text><text x="810" y="235" font-size="18">LiDAR measurements to build</text><text x="810" y="265" font-size="18">a more complete picture of</text><text x="810" y="295" font-size="18">the surrounding environment.</text>
+<rect x="1125" y="125" width="330" height="210" rx="16" fill="#f3efff" stroke="#a695ed" stroke-width="2"/>
+<text x="1290" y="163" text-anchor="middle" font-size="23" font-weight="700">4. Localization</text>
+<text x="1150" y="205" font-size="18">Estimates the car's position</text><text x="1150" y="235" font-size="18">and orientation using GPS,</text><text x="1150" y="265" font-size="18">inertial sensors, wheel data,</text><text x="1150" y="295" font-size="18">and maps.</text>
+<rect x="45" y="440" width="430" height="210" rx="16" fill="#fff0ef" stroke="#e58b84" stroke-width="2"/>
+<text x="260" y="480" text-anchor="middle" font-size="23" font-weight="700">5. Prediction &amp; Decisions</text>
+<text x="75" y="525" font-size="18">Predicts how road users may move.</text><text x="75" y="557" font-size="18">Chooses whether to brake, yield,</text><text x="75" y="589" font-size="18">stop, or change lanes, while</text><text x="75" y="621" font-size="18">following traffic and safety rules.</text>
+<rect x="535" y="440" width="430" height="210" rx="16" fill="#fff6df" stroke="#d8b04b" stroke-width="2"/>
+<text x="750" y="480" text-anchor="middle" font-size="23" font-weight="700">6. Path Planning</text>
+<text x="565" y="525" font-size="18">Calculates a safe, practical route</text><text x="565" y="557" font-size="18">around obstacles, within lane</text><text x="565" y="589" font-size="18">boundaries, and for the current</text><text x="565" y="621" font-size="18">traffic and road conditions.</text>
+<rect x="1025" y="440" width="430" height="210" rx="16" fill="#eaf8ed" stroke="#73bd83" stroke-width="2"/>
+<text x="1240" y="480" text-anchor="middle" font-size="23" font-weight="700">7. Vehicle Control</text>
+<text x="1055" y="525" font-size="18">Control algorithms turn the path</text><text x="1055" y="557" font-size="18">into steering, acceleration, and</text><text x="1055" y="589" font-size="18">braking commands. Feedback</text><text x="1055" y="621" font-size="18">corrects movement continuously.</text>
+<g stroke="#344054" stroke-width="3" fill="none" marker-end="url(#a)"><path d="M375 230 H409"/><path d="M745 230 H779"/><path d="M1085 230 H1119"/><path d="M1290 335 V385 H260 V434"/><path d="M475 545 H529"/><path d="M965 545 H1019"/></g>
+<rect x="180" y="730" width="1140" height="180" rx="18" fill="#f7f9fc" stroke="#cbd5e1" stroke-width="2"/>
+<text x="750" y="772" font-family="Arial,sans-serif" font-size="25" font-weight="700" text-anchor="middle" fill="#182238">8. Continuous Feedback and Safety</text>
+<text x="750" y="814" font-family="Arial,sans-serif" font-size="19" text-anchor="middle" fill="#182238">New sensor readings are checked continuously, and perception, prediction, planning, and control are updated.</text>
+<text x="750" y="849" font-family="Arial,sans-serif" font-size="19" text-anchor="middle" fill="#182238">Redundancy, fault detection, emergency braking, and testing help manage failures and changing conditions.</text>
+<path d="M1240 650 V690 H750 V724" stroke="#344054" stroke-width="3" fill="none" marker-end="url(#a)"/>
+<text x="750" y="960" font-family="Arial,sans-serif" font-size="16" text-anchor="middle" fill="#667085">AI interprets and predicts; sensors measure; control systems execute. Capabilities vary by vehicle and automation level.</text>
+</g></svg>
